@@ -1,0 +1,24 @@
+@font-face {
+    /*
+        font family is used to give a name to the custom font,
+        you can use this for referencing the custom font later
+    */
+    font-family: "my custom font";
+ 
+    /*
+        Static resource location for custom font, this is a ZIP file
+     */
+    src: url('/resource/OrbitronFont/Orbitron-VariableFont_wght.ttf') format('TrueType');
+ }
+
+.clock {
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 800px;
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: "my custom font";
+    letter-spacing: 7px;
+}
