@@ -1,0 +1,22 @@
+<template>
+  <template if:true={flag}>
+    <lightning-layout class="slds-align_absolute-center slds-text-align_center container" multiple-rows="true">
+      <lightning-layout-item size="12">
+        <div class="city">{cityName}</div>
+      </lightning-layout-item>
+      <lightning-layout-item size="12">
+        <div class="description">{description}</div>
+      </lightning-layout-item>
+      <lightning-layout-item size="12" class="slds-align_absolute-center slds-text-align_center">
+        <lightning-layout >
+          <lightning-layout-item size="6">
+            <div class="blink"><img src={icon}></div>
+          </lightning-layout-item>
+          <lightning-layout-item size="6">
+            <div class="temp">{temp}</div>
+          </lightning-layout-item>
+        </lightning-layout>
+      </lightning-layout-item>
+    </lightning-layout>  
+  </template>
+</template>

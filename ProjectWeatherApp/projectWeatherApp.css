@@ -1,0 +1,17 @@
+
+.container{
+    background-color: #48484a;
+    border-radius: 30px; /* for rounding the edges */
+    margin: 0px 10px 0px 10px;
+}
+.card{
+    background-color: coral;
+    border-radius: 30px;
+    margin: 0px 10px 0px 10px;
+    height: 200px;
+}
+
+.btn {
+	background-color: coral;
+    border-color: coral;
+}

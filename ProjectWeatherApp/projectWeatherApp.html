@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Enter details for weather information"> 
+        <div class="container slds-align_absolute-center">
+            <div class="slds-grid slds-gutters  slds-var-p-around_medium lgc-bg ">
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-input type="text" variant = "label-hidden" placeholder="zipcode" class="zip"></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-input type="text" variant = "label-hidden" placeholder="country code (IN)" class="ccode"></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-button class="btn" variant="brand" label="Search" title="Primary action" onclick={handleClick} ></lightning-button>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="card">
+            <c-weather-information></c-weather-information>
+        </div>
+    </lightning-card>
+</template>
